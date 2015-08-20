@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<AutomatedInstallation langpack="fra">
+    <com.izforge.izpack.panels.HelloPanel id="UNKNOWN (com.izforge.izpack.panels.HelloPanel)" />
+    <com.izforge.izpack.panels.LicencePanel id="UNKNOWN (com.izforge.izpack.panels.LicencePanel)" />
+    <com.izforge.izpack.panels.TargetPanel id="UNKNOWN (com.izforge.izpack.panels.TargetPanel)">
+        <installpath>/opt/jahia-7.1.0.0</installpath>
+    </com.izforge.izpack.panels.TargetPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="installType">
+        <userInput>
+            <entry key="installation.type" value="advanced" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.PacksPanel id="packsPanel">
+        <pack index="0" name="jahia" selected="true" />
+        <pack index="1" name="tomcat" selected="true" />
+    </com.izforge.izpack.panels.PacksPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="dbMode">
+        <userInput>
+            <entry key="dbSettings.mode" value="standalone" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="dbType">
+        <userInput>
+            <entry key="dbSettings.dbms.type" value="postgresql" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="dbSettings">
+        <userInput>
+            <entry key="dbSettings.connection.url.postgresql" value="jdbc:postgresql://postgres:5432/jahia" />
+            <entry key="dbSettings.dbms.createTables" value="true" />
+            <entry key="dbSettings.connection.username" value="jahia" />
+            <entry key="dbSettings.dbms.storeFilesInDB" value="false" />
+            <entry key="dbSettings.connection.driver.postgresql" value="org.postgresql.Driver" />
+            <entry key="dbSettings.connection.password" value="jahia" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="appServer">
+        <userInput>
+            <entry key="tomcat.ajpPort" value="8009" />
+            <entry key="tomcat.serverPort" value="8005" />
+            <entry key="jahiaManager.password" value="jahia" />
+            <entry key="tomcat.sslPort" value="8443" />
+            <entry key="jahiaManager.username" value="jahia" />
+            <entry key="developmentMode" value="true" />
+            <entry key="tomcat.httpPort" value="8080" />
+            <entry key="jahia.war.contextName" value="my-site" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="superUser">
+        <userInput>
+            <entry key="superUser.password" value="jahia" />
+            <entry key="superUser.firstname" value="Pierre" />
+            <entry key="superUser.lastname" value="Juvigny" />
+            <entry key="superUser.email" value="pierre.juvigny@capgemini.com" />
+            <entry key="superUser.preferredLang" value="fr" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="mailSettings">
+        <userInput>
+            <entry key="mailSettings.server" value="pierre.juvigny@capgemini.com" />
+            <entry key="mailSettings.from" value="pierre.juvigny@capgemini.com" />
+            <entry key="mailSettings.administrator" value="pierre.juvigny@capgemini.com" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="studioToolSettings">
+        <userInput>
+            <entry key="studioToolSettings.svnPath" value="/usr/bin/" />
+            <entry key="studioToolSettings.mvnPath" value="/usr/local/maven/bin/mvn" />
+            <entry key="studioToolSettings.gitPath" value="/usr/bin/" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="externalToolSettings">
+        <userInput>
+            <entry key="dmConfig.imagemagickPath" value="" />
+            <entry key="dmConfig.officePath" value="" />
+            <entry key="dmConfig.validate" value="true" />
+            <entry key="dmConfig.ffmpegPath" value="" />
+            <entry key="dmConfig.pdf2swfPath" value="" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="additionalSettings">
+        <userInput>
+            <entry key="defaultLanguageCode" value="fr" />
+            <entry key="additionalModulesPath" value="" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="externalizedConfig">
+        <userInput>
+            <entry key="externalizedConfigTargetPath" value="/opt/jahia-7.1.0.0/digital-factory-config" />
+            <entry key="data.dir" value="/opt/jahia-7.1.0.0/digital-factory-data" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.SummaryPanel id="UNKNOWN (com.izforge.izpack.panels.SummaryPanel)" />
+    <com.izforge.izpack.panels.ExtendedInstallPanel id="UNKNOWN (com.izforge.izpack.panels.ExtendedInstallPanel)" />
+    <com.izforge.izpack.panels.ShortcutPanel id="shortcutPanel">
+    </com.izforge.izpack.panels.ShortcutPanel>
+    <com.izforge.izpack.panels.UserInputPanel id="afterInstall">
+        <userInput>
+            <entry key="afterInstall.startTomcat" value="false" />
+            <entry key="afterInstall.launchJahia" value="false" />
+        </userInput>
+    </com.izforge.izpack.panels.UserInputPanel>
+    <com.izforge.izpack.panels.ProcessPanel id="UNKNOWN (com.izforge.izpack.panels.ProcessPanel)" />
+    <com.izforge.izpack.panels.FinishPanel id="UNKNOWN (com.izforge.izpack.panels.FinishPanel)" />
+</AutomatedInstallation>
