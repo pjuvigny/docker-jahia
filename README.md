@@ -1,7 +1,7 @@
 ## Jahia Dockerfile
 
 
-This repository contains **Dockerfile** of [Jahia](http://nginx.org/) version 7.1.0 for [Docker](https://www.docker.com/).
+This repository contains **Dockerfile** of [Jahia](https://www.jahia.com/) version 7.1.0 for [Docker](https://www.docker.com/).
 
 It uses a postgresql database which image can be found [here](https://github.com/pjuvigny/docker-postgres-jahia)
 
