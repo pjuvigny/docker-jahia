@@ -34,7 +34,7 @@ Or via link
 	docker run -d --link postgres:postgres -p 8080:8080 pjuvigny/jahia
 
 
-After several minutes (first start-up is very long: ~10 min), open http://<host>/<jahia.war.contextName> to see the welcome page.
+After several minutes (first start-up is very long: ~10 min), open `http://<host>/<jahia.war.contextName>` to see the welcome page.
 
 To follow progress:
 
