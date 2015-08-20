@@ -7,7 +7,7 @@ RUN 	yum install -y git
 RUN 	yum install -y mod_dav_svn subversion
 RUN     yum install -y tar
 RUN     yum install -y wget
-RUN     yum install -y java-1.8.0-openjdk-devel.x86_64
+RUN     yum install -y java-1.7.0-openjdk-devel.x86_64
 RUN		yum clean all
 
 # Install Maven
